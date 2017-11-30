@@ -11,16 +11,16 @@ eureka:
       defaultZone: http://localhost:8080/eureka/
 
 zuul:
+  proxy:
+      addProxyHeaders: true 
   routes:
     clients:
       url: http://localhost:9080
-      path: /**
-      sensitive-headers: Set-Cookie,Authorization
-  routes:
+      sensitive-headers:
     products:
       url: http://localhost:9081
-      path: /**
-      sensitive-headers: Set-Cookie,Authorization
+      sensitive-headers:
+      #sensitive-headers: Set-Cookie,Authorization
 
 ribbon:
   eureka:
