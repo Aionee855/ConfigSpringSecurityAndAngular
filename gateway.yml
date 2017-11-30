@@ -15,7 +15,7 @@ eureka:
 
 zuul:
   routes:
-    clients:
+    rest-clients:
       path: /**
       sensitive-headers: Set-Cookie,Authorization
       url: http://localhost:9080
