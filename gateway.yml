@@ -8,40 +8,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:8080/eureka/
 
-#eureka.client.region = default
-#eureka.client.registryFetchIntervalSeconds = 5
-
-#management.security.sessions=always
-
 zuul:
+  proxy:
+      addProxyHeaders: true 
   routes:
     rest-clients:
-      path: /clients/**
-      sensitive-headers: Set-Cookie,Authorization
       url: http://localhost:9080
-hystrix:
-  command:
-    somedata-service:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 600000
-
-#zuul.routes.somedata2-service.path=/somedata2-service/**
-#zuul.routes.somedata2-service.sensitive-headers=Set-Cookie,Authorization
-#hystrix.command.somedata-service.execution.isolation.thread.timeoutInMilliseconds=600000
-
-#zuul.routes.discovery.path=/discovery/**
-#zuul.routes.discovery.sensitive-headers=Set-Cookie,Authorization
-#zuul.routes.discovery.url=http://localhost:8082
-#hystrix.command.discovery.execution.isolation.thread.timeoutInMilliseconds=600000
-
-#logging.level.org.springframework.web.=debug
-#logging.level.org.springframework.security=debug
-#logging.level.org.springframework.cloud.netflix.zuul=debug
-
-#spring.redis.host=localhost
-#spring.redis.port=6379
-
-#spring.sleuth.sampler.percentage=1.0
-#spring.sleuth.web.skipPattern=(^cleanup.*|.+favicon.*)
+      sensitive-headers:
