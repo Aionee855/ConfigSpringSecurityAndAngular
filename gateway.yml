@@ -14,8 +14,11 @@ zuul:
   proxy:
       addProxyHeaders: true 
   routes:
-    rest-clients:
+    clients:
       url: http://localhost:9080
+      sensitive-headers:
+    products:
+      url: http://localhost:9081
       sensitive-headers:
 
 ribbon:
