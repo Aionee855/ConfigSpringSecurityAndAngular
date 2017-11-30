@@ -16,7 +16,7 @@ eureka:
 zuul:
   routes:
     rest-clients:
-      path: /**
+      path: /clients/**
       sensitive-headers: Set-Cookie,Authorization
       url: http://localhost:9080
 hystrix:
