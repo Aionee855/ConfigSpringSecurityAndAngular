@@ -14,10 +14,10 @@ zuul:
   proxy:
       addProxyHeaders: true 
   routes:
-    clients:
+    rest-clients:
       url: http://localhost:9080
       sensitive-headers: Set-Cookie,Authorization
-    products:
+    rest-products:
       url: http://localhost:9081
       sensitive-headers: Set-Cookie,Authorization
 
