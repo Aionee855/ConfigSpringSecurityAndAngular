@@ -15,10 +15,10 @@ eureka:
 
 zuul:
   routes:
-    data-clients:
+    clients:
       url: http://localhost:9080
       path=: /**
-      sensitive-headers: Set-Cookie,Authorization
+#      sensitive-headers: Set-Cookie,Authorization
 #hystrix.command.somedata-service.execution.isolation.thread.timeoutInMilliseconds=600000
 
 #zuul.routes.somedata2-service.path=/somedata2-service/**
