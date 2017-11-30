@@ -16,11 +16,10 @@ zuul:
   routes:
     clients:
       url: http://localhost:9080
-      sensitive-headers:
+      sensitive-headers: Set-Cookie,Authorization
     products:
       url: http://localhost:9081
-      sensitive-headers:
-      #sensitive-headers: Set-Cookie,Authorization
+      sensitive-headers: Set-Cookie,Authorization
 
 ribbon:
   eureka:
