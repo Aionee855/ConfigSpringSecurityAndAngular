@@ -16,10 +16,10 @@ zuul:
       url: http://localhost:9080
       path: /**
       sensitive-headers: Set-Cookie,Authorization
-    products:
-      url: http://localhost:9081
-      path: /**
-      sensitive-headers: Set-Cookie,Authorization
+ #   products:
+ #     url: http://localhost:9081
+ #     path: /**
+ #     sensitive-headers: Set-Cookie,Authorization
 
 ribbon:
   eureka:
