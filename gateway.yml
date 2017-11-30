@@ -17,8 +17,8 @@ zuul:
   routes:
     clients:
       url: http://localhost:9080
-      path: /**
-#      sensitive-headers: Set-Cookie,Authorization
+      path: /clients/**
+      sensitive-headers: Set-Cookie,Authorization
 #hystrix.command.somedata-service.execution.isolation.thread.timeoutInMilliseconds=600000
 
 #zuul.routes.somedata2-service.path=/somedata2-service/**
