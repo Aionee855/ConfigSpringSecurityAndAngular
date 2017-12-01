@@ -15,4 +15,4 @@ security:
     enabled: false
   oauth2:
     resource:
-      userInfoUri: http://localhost:8000/auth/user/me
+      userInfoUri: http://localhost:8000/user
