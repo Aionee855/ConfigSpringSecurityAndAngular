@@ -14,7 +14,7 @@ zuul:
   proxy:
       addProxyHeaders: true 
   routes:
-    account:
+    account-service:
       url: http://localhost:8085
       sensitive-headers: Set-Cookie,Authorization
     rest-products:
