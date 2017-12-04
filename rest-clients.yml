@@ -16,3 +16,6 @@ security:
   oauth2:
     resource:
       userInfoUri: http://localhost:8000/user
+
+custom-var:
+  roles: ROLE_ADMIN
