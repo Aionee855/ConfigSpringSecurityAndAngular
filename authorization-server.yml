@@ -1,2 +1,6 @@
 server:
   port: 8000
+
+custom-var:
+  dawid: ROLE_ADMIN
+  anh: ROLE_CLIENT
