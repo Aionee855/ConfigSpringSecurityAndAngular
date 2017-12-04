@@ -18,4 +18,4 @@ security:
       userInfoUri: http://localhost:8000/user
 
 custom-var:
-  roles: ROLE_ADMIN
+  roles: ROLE_CLIENT
