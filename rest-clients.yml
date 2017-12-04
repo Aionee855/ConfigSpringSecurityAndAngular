@@ -17,7 +17,6 @@ security:
     client:
       client-id: account-service
       client-secret: secret
-      scope: read
       acceess-token-uri: http://localhost:8000/oauth/token
       user-authorization-uri: http://localhost:8000/oauth/authorize
     resource:
