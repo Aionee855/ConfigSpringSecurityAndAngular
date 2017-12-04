@@ -2,5 +2,5 @@ server:
   port: 8000
 
 custom-var:
-  dawid: ROLE_ADMIN, ROLE_CLIENT, ROLE_DUPA
+  dawid: ROLE_ADMIN, ROLE_CLIENT
   anh: ROLE_CLIENT
