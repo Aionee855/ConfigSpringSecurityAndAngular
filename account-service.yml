@@ -28,4 +28,5 @@ security:
       token-info-uri: http://localhost:8000/oauth/check_token
 
 custom-var:
-  scope: dupa
+  scope: read
+  role: ROLE_ADMIN
