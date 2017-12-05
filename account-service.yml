@@ -31,4 +31,4 @@ custom-var:
   get-path:
     all:
       scope: read
-      role: ROLE_
+      role: ROLE_ADMIN
