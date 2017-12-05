@@ -29,4 +29,4 @@ security:
 
 custom-var:
   scope: read
-  role: ROLE_ADMIN
+  role: ROLE_DUPA
