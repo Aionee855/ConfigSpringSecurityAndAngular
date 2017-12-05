@@ -27,4 +27,4 @@ custom-var:
   get-path:
     all:
       scope: read
-      role: ROLE_DUPA
+      role: ROLE_ADMIN
