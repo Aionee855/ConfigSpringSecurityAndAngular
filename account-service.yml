@@ -26,3 +26,6 @@ security:
       user-authorization-uri: http://localhost:8000/oauth/authorize
     resource:
       token-info-uri: http://localhost:8000/oauth/check_token
+
+custom-var:
+  scope: read
