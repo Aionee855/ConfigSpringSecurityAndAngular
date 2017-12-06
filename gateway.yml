@@ -15,7 +15,7 @@ zuul:
       addProxyHeaders: true 
   routes:
     account-service:
-      url: http://localhost:8085
+      #url: http://localhost:8085
       sensitive-headers: Set-Cookie,Authorization
     customer-service:
       url: http://localhost:8086
@@ -23,4 +23,4 @@ zuul:
 
 ribbon:
   eureka:
-    enabled: false
+    enabled: true
