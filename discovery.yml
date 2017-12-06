@@ -3,7 +3,7 @@ spring:
     name: discovery
     
 server:
-  port: 8045
+  port: 8080
 
 #eureka:
 #  instance:
