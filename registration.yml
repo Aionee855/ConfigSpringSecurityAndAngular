@@ -1,0 +1,15 @@
+spring:  
+  application:
+    name: registration
+  datasource:
+    url: jdbc:mysql://localhost/oauth2
+    username: oauth2
+    password: 123
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        hbm2ddl:
+          auto: validate
+         
