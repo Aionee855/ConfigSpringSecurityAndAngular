@@ -1,3 +1,6 @@
+server:
+  port: 8088
+
 spring:  
   application:
     name: registration
@@ -12,4 +15,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
         hbm2ddl:
           auto: validate
-         
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/ 
