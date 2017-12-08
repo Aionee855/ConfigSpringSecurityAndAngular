@@ -3,7 +3,7 @@ server:
 
 spring:  
   application:
-    name: registration
+    name: clients-registration
   datasource:
     url: jdbc:mysql://localhost/oauth2
     username: oauth2
