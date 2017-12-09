@@ -1,5 +1,5 @@
 server:  
-  port: ${PORT:8088}
+  port: PORT:8088
 
 spring:  
   application:
@@ -16,9 +16,6 @@ spring:
         hbm2ddl:
           auto: validate
           
-logging:
-  level:
-    org.springframework.security: DEBUG
     
 eureka:
   client:
