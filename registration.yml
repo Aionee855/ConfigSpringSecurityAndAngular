@@ -19,3 +19,15 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8080/eureka/ 
+
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      client-id: account-service
+      client-secret: secret
+      acceess-token-uri: http://localhost:8000/oauth/token
+      user-authorization-uri: http://localhost:8000/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:8000/oauth/check_token
