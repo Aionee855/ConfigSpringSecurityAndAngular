@@ -20,7 +20,7 @@ zuul:
       sensitive-headers: Set-Cookie,Authorization
     registration-users:
       sensitive-headers: Set-Cookie,Authorization
-    clients-registration:
+    registration-clients:
       sensitive-headers: Set-Cookie,Authorization
 
 ribbon:
