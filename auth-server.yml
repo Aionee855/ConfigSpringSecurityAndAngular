@@ -26,8 +26,3 @@ eureka:
 logging:
   level:
     org.springframework.security: DEBUG
-
-security:
-  oauth2:
-    client:
-      expires_in: 1000000
