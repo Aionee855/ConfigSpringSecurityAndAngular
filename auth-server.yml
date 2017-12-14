@@ -30,4 +30,4 @@ logging:
 security:
   oauth2:
     client:
-      access-token-validity-seconds: 0
+      expires_in: 1000000
