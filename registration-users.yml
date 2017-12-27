@@ -38,4 +38,4 @@ security:
 endpoints:
   security:
     get:
-      all: "hasRole('ROLE_PUMA_ADMIN') or hasRole('ROLE_TEST')"
+      all: hasRole('ROLE_PUMA_ADMIN') or hasRole('ROLE_TEST')
