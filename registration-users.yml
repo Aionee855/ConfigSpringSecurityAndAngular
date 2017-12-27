@@ -38,4 +38,4 @@ security:
 endpoints:
   security:
     get:
-      all: hasRole(ROLE_ADMIN)
+      all: hasRole('ROLE_ADMIN')
