@@ -38,4 +38,4 @@ security:
 endpoints:
   security:
     get:
-      all: ROLE_ADMIN
+      all: ROLE_DUPA
